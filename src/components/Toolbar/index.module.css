@@ -1,0 +1,22 @@
+
+.container {
+  @apply flex items-center gap-4
+         bg-white shadow-md rounded-xl
+         px-4 py-2 w-fit mx-auto
+         fixed top-4 left-1/2 -translate-x-1/2
+         z-50;
+}
+
+.toolItem {
+  @apply w-10 h-10 flex items-center justify-center 
+         rounded-lg text-gray-600 
+         transition-colors duration-200 cursor-pointer;
+}
+
+.toolItem:hover {
+  @apply bg-gray-100 text-gray-800;
+}
+
+.active {
+  @apply bg-blue-500 text-white;
+}
