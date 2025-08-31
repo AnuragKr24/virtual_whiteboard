@@ -26,7 +26,7 @@ This project allows users to draw, erase, undo/redo, and download their whiteboa
 - **HTML Canvas** – Drawing board  
 - **Tailwind CSS** – Styling  
 - **React Context API** – State management  
-- **JavaScript (ES6+)** – Core logic  
+- **JavaScript ** – Core logic  
 - **Vercel** – Deployment  
 
 ---
